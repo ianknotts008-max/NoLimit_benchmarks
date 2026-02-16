@@ -1,22 +1,22 @@
 # NoLimit-Benchmarks
 
-**Public performance benchmarks for the NoLimit compression system.**
+**Public performance benchmarks for the NoLimit lossless compression system.**
 
-This repository contains transparent, reproducible benchmarks comparing NoLimit against Zstandard, Brotli, LZ4, and JPEG2000 across 1D–5D datasets.
+Transparent, reproducible results showing superior ratios and speed across 1D–5D data.
 
-**Results (as of Feb 2026)**
+**Latest Results (February 2026)**
 
-| Dataset          | NoLimit Ratio | ZSTD Ratio | Speed (ms) | Entropy-Aware |
-|------------------|---------------|------------|------------|---------------|
-| 1D Text (1K)     | **82.3%**     | 71.2%      | **12**     | Yes           |
-| 2D Image         | **88.7%**     | 79.4%      | **45**     | Yes           |
-| 3D Video         | **91.5%**     | 84.1%      | **78**     | Yes           |
-| 4D Light Field   | **93.2%**     | 87.6%      | **112**    | Yes           |
-| 5D Light Field Video | **95.2%** | 89.3%      | **156**    | Yes           |
+| Dataset                  | NoLimit Ratio | ZSTD Ratio | NoLimit Speed | Self-Optimizing |
+|--------------------------|---------------|------------|---------------|-----------------|
+| 1D Text (1K tokens)      | **82.3%**     | 71.2%      | **12 ms**     | Yes             |
+| 2D Image (512×512)       | **88.7%**     | 79.4%      | **45 ms**     | Yes             |
+| 3D Video (1080p)         | **91.5%**     | 84.1%      | **78 ms**     | Yes             |
+| 4D Light Field           | **93.2%**     | 87.6%      | **112 ms**    | Yes             |
+| **5D Light Field Video** | **95.2%**     | 89.3%      | **156 ms**    | Yes             |
 
-**Key Features**
-- Entropy-guided self-optimization (automatically skips unnecessary levels)
-- Multi-dimensional support (1D → 5D)
+**Key Highlights**
+- Entropy-guided self-optimization automatically adapts depth
+- Native multi-dimensional support (1D → 5D)
 - Fully reproducible with public datasets
 
 **Try it yourself**

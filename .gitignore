@@ -1,0 +1,24 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints
+
+# Results and data
+benchmarks/results/
+benchmarks/datasets/*
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
+# jar stub
+stubs/no-limit-stub.jar
