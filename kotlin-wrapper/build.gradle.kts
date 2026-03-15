@@ -1,8 +1,7 @@
-// Gradle build file for Kotlin wrapper
-// This wrapper is archived and provided only as an example.
+// Gradle build file for the archived Kotlin wrapper example.
 
 plugins {
-    kotlin("jvm") version "1.5.0"
+    kotlin("jvm") version "1.9.23"
 }
 
 repositories {

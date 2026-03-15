@@ -1,3 +1,4 @@
-pandas
-plotly
-pytest
+pandas>=2.2,<3
+plotly>=5.24,<6
+kaleido>=0.2,<1         # required by plotly for PNG export
+pytest>=8.0,<9
